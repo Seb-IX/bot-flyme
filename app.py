@@ -104,6 +104,6 @@ if __name__ == "__main__":
     try:
         logger.setLevel(logging.DEBUG)
         logger.info('Application started correctly.')
-        web.run_app(app, host="localhost", port=CONFIG.PORT)
+        web.run_app(app, host="0.0.0.0", port=CONFIG.PORT)
     except Exception as error:
         raise error
