@@ -1,3 +1,4 @@
+aiohttp==3.6.2
 asyncio>=3.4.3
 requests==2.23.0
 botbuilder-core>=4.13.0
